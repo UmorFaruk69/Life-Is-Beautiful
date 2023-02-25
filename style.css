@@ -38,7 +38,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 60px;
+  gap: 30px;
   margin-top: 10px;
 }
 .btn-primary {
@@ -105,6 +105,7 @@ h1 {
 .main-video {
   display: inline-block;
   padding: 0 20px;
+  max-width: 100%;
 }
 iframe {
   max-width: 100%;
@@ -123,7 +124,7 @@ footer {
   font-size: 5rem;
 }
 /* Responsive */
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   header .header-btn {
     display: none;
   }
